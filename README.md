@@ -15,9 +15,7 @@ It includes:
 
 ## 🚀 Live Demo  
 🔗 *GitHub Pages Link:*  
-(Add your link here after the site loads)  
-Example:  
-https://sanskrutiaskale-tech.github.io/PRODIGY_WD_01/
+https://sanskrutisarkale-tech.github.io/PRODIGY_WD_01/
 
 ---
 
