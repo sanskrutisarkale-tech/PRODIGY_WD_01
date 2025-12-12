@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Advanced Navigation Menu - Test</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="light">
+  <!-- Navbar -->
+  <nav id="navbar">
+    <div class="logo">MyWebsite</div>
+
+    <div class="hamburger" id="hamburger">
+      <span></span><span></span><span></span>
+    </div>
+
+    <ul class="nav-links" id="nav-links">
+      <li><a href="#">Home</a></li>
+      <li class="dropdown">
+        <a href="#" class="drop-btn">Services ▾</a>
+        <ul class="drop-menu">
+          <li><a href="#">Web Development</a></li>
+          <li><a href="#">UI/UX Design</a></li>
+          <li><a href="#">SEO</a></li>
+        </ul>
+      </li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Contact</a></li>
+      <li><button id="theme-toggle" class="theme-btn">🌙</button></li>
+    </ul>
+  </nav>
+
+  <!-- Hero test content -->
+  <main>
+    <section class="hero" style="padding-top:120px; text-align:center;">
+      <h1 style="font-size:36px; margin-bottom:8px;">Welcome — TEST PAGE</h1>
+      <p style="font-size:18px; opacity:0.85;">If you can see this, HTML + CSS loaded correctly.</p>
+      <div style="margin-top:20px;">
+        <a href="#" style="padding:10px 16px; text-decoration:none; background:#0a3d62; color:#fff; border-radius:6px;">Primary Action</a>
+      </div>
+    </section>
+    <section style="height:1200px;"></section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
